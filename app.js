@@ -3,6 +3,9 @@ const mysql = require("mysql");
 const figlet = require("figlet");
 const util = require("util");
 const chalk = require("chalk");
+const chalkAnimation = require("chalk-animation");
+const gradient = require("gradient-string");
+//const rainbow = chalkAnimation.rainbow("Lorem ipsum");
 
 const {
   viewAllDept,
@@ -133,7 +136,8 @@ const figletIntro = function () {
         console.dir(err);
         return;
       }
-      console.log(data);
+      console.log(gradient.vice(data));
+
       start();
     }
   );
