@@ -1,4 +1,4 @@
-# Project Name: Express Note Taker
+# Project Name: MySql Employee Mgmt System
 
 # Project Description
 
