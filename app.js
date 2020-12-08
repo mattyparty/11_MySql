@@ -1,11 +1,11 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql");
 const figlet = require("figlet");
-const util = require("util");
+//const util = require("util");
 const chalk = require("chalk");
 const chalkAnimation = require("chalk-animation");
 const gradient = require("gradient-string");
-//const rainbow = chalkAnimation.rainbow("Lorem ipsum");
+const rainbow = chalkAnimation.rainbow("Lorem ipsum");
 
 const {
   viewAllDept,
@@ -29,6 +29,8 @@ const connection = mysql.createConnection({
   password: "password",
   database: "employeetracker",
 });
+
+////////////////////////////////////////////////////////
 // Connect to the mySQL Server & the DB
 connection.connect((err) => {
   if (err) throw err;
