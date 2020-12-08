@@ -24,7 +24,7 @@ Luckly I have alot of SQL experience so that portion of this homework was on eas
 
 [Repo Location](https://github.com/mattyparty/12_Mysql)
 
-[Heroku Location](https://whispering-woodland-31837.herokuapp.com/)
+[Video Walk Through](https://github.com/mattyparty/12_MySql/blob/main/Assets/MySql.mp4/)
 
 # Installation
 
